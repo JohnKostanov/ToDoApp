@@ -11,7 +11,7 @@ import XCTest
 
 class TaskManagerTests: XCTestCase {
     
-    var sut: TaskManager!
+    var sut: TaskManager! // sut - sistem under test
 
     override func setUp() {
         sut = TaskManager()
